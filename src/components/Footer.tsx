@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Icon from '@/components/ui/Icon';
+import Icon from '@/components/ui/icon';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -44,7 +43,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-gray-300 mt-6 pt-4 text-sm text-center">
-          © {currentYear} КАСТИНГИ СПб. Все права защищены.
+          &copy; {currentYear} КАСТИНГИ СПб. Все права защищены.
         </div>
       </div>
     </footer>

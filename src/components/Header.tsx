@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Icon from '@/components/ui/Icon';
+import Icon from '@/components/ui/icon';
 
 const Header: React.FC = () => {
   return (
