@@ -5,9 +5,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Index = () => {
-  // Добавление метатегов через React Helmet отсутствует здесь, но в реальном проекте
-  // было бы хорошо использовать его или аналогичную библиотеку для управления head
-
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 md:py-12">
       {/* Главный заголовок в газетном стиле */}
@@ -139,7 +136,6 @@ const Index = () => {
 };
 
 // Добавляем метатеги для SEO
-// В реальном проекте следует использовать React Helmet или аналог
 document.title = "Кастинги в Санкт-Петербурге | Актуальные предложения для актеров и моделей";
 const metaDescription = document.createElement('meta');
 metaDescription.name = "description";

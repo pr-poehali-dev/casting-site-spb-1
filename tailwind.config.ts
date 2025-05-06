@@ -1,8 +1,8 @@
-import type { Config } from 'tailwindcss';
-import { fontFamily } from 'tailwindcss/defaultTheme';
+ioport tmype { Config } from 'tailwindcss';
+import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
-  darkMode: ['class'],
+  darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -20,7 +20,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['var(--font-sans)', ...fontFamily.sans],
+        sans: ['Inter', ...fontFamily.sans],
         serif: ['Georgia', 'Times New Roman', ...fontFamily.serif],
       },
       colors: {
